@@ -408,7 +408,7 @@ button,
 [type=button],
 [type=reset],
 [type=submit] {
-  -webkit-appearance: button;
+  appearance: button;
 }
 button:not(:disabled),
 [type=button]:not(:disabled),
@@ -466,7 +466,7 @@ legend + * {
 
 [type=search] {
   outline-offset: -2px;
-  -webkit-appearance: textfield;
+  appearance: textfield;
 }
 
 /* rtl:raw:
@@ -487,7 +487,7 @@ legend + * {
 
 ::file-selector-button {
   font: inherit;
-  -webkit-appearance: button;
+  appearance: button;
 }
 
 output {
@@ -3629,6 +3629,63 @@ textarea.form-control-lg {
   border-top-right-radius: 0;
 }
 
+/* ===================================
+   Efectos en los links del nav
+=====================================*/
+
+nav ul {
+  list-style: none;
+  margin: 0px;
+  padding: 0px;
+}
+
+nav li{
+	float: none; 
+  width: 100%;
+}
+
+nav li a{
+  display: block; 
+  width: 100%; 
+  padding: 20px; 
+  border-left: 5px solid; 
+  position: relative; 
+  z-index: 2;
+  text-decoration: none;
+  box-sizing: border-box;  
+  -moz-box-sizing: border-box;  
+  -webkit-box-sizing: border-box; 
+}
+
+nav li a:hover{ border-bottom: 0px; color: #fff;}
+nav li:first-child a{ border-left: 5px solid #3498db; }
+nav li:nth-child(2) a{ border-left: 5px solid #ffd071; }
+nav li:nth-child(3) a{ border-left: 5px solid #f0776c; }
+nav li:nth-child(4) a{ border-left: 5px solid #9c71ff; }
+nav li:nth-child(5) a{ border-left: 5px solid #f0ac6c; }
+nav li:last-child a{ border-left: 5px solid #1abc9c; }
+
+nav li a:after { 
+  content: "";
+  height: 100%; 
+  left: 0; 
+  top: 0; 
+  width: 0px;  
+  position: absolute; 
+  transition: all 0.3s ease 0s; 
+  -webkit-transition: all 0.3s ease 0s; 
+  z-index: -1;
+}
+
+nav li a:hover:after{ width: 100%; }
+nav li:first-child a:after{ background: #3498db; }
+nav li:nth-child(2) a:after{ background: #ffd071; }
+nav li:nth-child(3) a:after{ background: #f0776c; }
+nav li:nth-child(4) a:after{ background: #9c71ff; }
+nav li:nth-child(5) a:after{ background: #f0ac6c; }
+nav li:last-child a:after{ background: #1abc9c; }
+/* ===================================
+=====================================*/
 .nav {
   --bs-nav-link-padding-x: 1rem;
   --bs-nav-link-padding-y: 0.5rem;
@@ -10950,7 +11007,7 @@ p.lead {
 .social-icons .social-icon {
   display: inline-flex;
   align-items: center;
-  justify-content: center; 
+  justify-content: center;
   height: 3.5rem;
   width: 3.5rem;
   line-height: 63px;
@@ -10989,6 +11046,11 @@ p.lead {
   transform: scale(1.1);
   box-shadow: 0 0 20px var(--bs-social-icon-hover);
 }
+
+
+
+
+
 
 .dev-icons {
   font-size: 3rem;
