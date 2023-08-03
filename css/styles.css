@@ -10944,24 +10944,50 @@ p.lead {
     display: block;
   }
 }
+
+.social-icons {margin: 0 15px;}
+
 .social-icons .social-icon {
   display: inline-flex;
   align-items: center;
   justify-content: center;
   height: 3.5rem;
   width: 3.5rem;
-  background-color: #79717A;
+  line-height: 63px;
+  background: #012E40;
   color: #fff;
   border-radius: 100%;
-  font-size: 1.5rem;
+  font-size: 1.75rem;
   margin-right: 1.5rem;
+  transition: .5s;
 }
 .social-icons .social-icon:last-child {
   margin-right: 0;
 }
+
+.social-icons .social-icon::before {
+  content: '';
+  position: absolute;
+  top: 0;
+  left: 0;
+  height: 3.75rem;
+  width: 3.75rem;
+  border-radius: 100%;
+  background: var(--bs-social-icon-hover);
+  transition: .5s;
+  transform: scale(.9);
+  z-index: -1;
+}
+
 .social-icons .social-icon:hover {
-  /*background-color: #0d6efd;*/
   color: var(--bs-social-icon-hover);
+  box-shadow: 0 0 15px var(--bs-social-icon-hover);
+  text-shadow: 0 0 5px var(--bs-social-icon-hover);
+}
+
+.social-icons .social-icon:hover::before {
+  transform: scale(1.1);
+  box-shadow: 0 0 20px var(--bs-social-icon-hover);
 }
 
 .dev-icons {
