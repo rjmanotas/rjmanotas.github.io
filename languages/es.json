@@ -1,0 +1,49 @@
+{
+  "profile": {
+    "rol": "Desarrollador Fullstack",
+    "description": "Profesional con más de tres años de experiencia en Tecnologías de la Información y telecomunicaciones como técnico de soporte en mesas de ayuda, administración de archivos digitales, soporte técnico remoto y mantenimiento de software para los sistemas operativos Windows y Linux, máquinas virtuales. Tengo conocimientos en scripting y Data Science con Python, así como conocimientos básicos en desarrollo de Software basados en AWS, desarrollo de páginas y sitios web responsivos, análisis y levantamiento de requerimientos."
+  },
+  "experience": {
+      "last-job-title": "TÉCNICO DE SOPORTE Y AUTOMATIZACIÓN",
+      "last-job-dates": "Enero 2023 - Presente",
+      "last-job-description": "Rago revisión, seguimiento y actualización de bases de datos en SQL Server. Desarrollo de soluciones para la automatización de procesos. Desarrollo de soluciones para el análisis de datos estadísticos.",
+      "second-job-title": "TÉCNICO DE SOPORTE HELPDESK",
+      "second-job-dates": "Octubre 2020 - Enero 2023",
+      "second-job-description": "Análisis de aplicaciones web de e-commerce desarrolladas en Node.js, desplegadas en Amazon Web Services. Testing y Debugging de código escrito en Node.js, bases de datos MongoDB, integraciones, API's y desarrollo de scripts en Node.js para la carga de información a la nube.",
+      "first-job-title": "APRENDIZ DE DESARROLLO DE SOFTWARE",
+      "first-job-dates": "Febrero 2021 - Mayo 2021",
+      "first-job-description": "Apoyé en el rediseño, desarrollo e implementación de un sistema de inventario en bodega para la institución, pasándolo de ser una aplicación de escritorio a ser una webApp. El sistema se desarrolló usando Node.js y Angular para backend y frontend respectivamente, con una base de datos en MySQL."
+  },
+  "education": {
+      "last-education-title": "TECNÓLOGO EN ANÁLISIS Y DESARROLLO DE SISTEMAS DE INFORMACIÓN",
+      "last-education-institution": "SENA",
+      "last-education-date": "Mayo 2019 - Junio 2021",
+      "last-education-description": "Analista orientado a los requisito del cliente para el diseño y desarrollo de sistemas de información escalables dirigidos a clientes finales.",
+      "first-education-title": "BACHILLER TÉCNICO EN INFORMÁTICA",
+      "first-education-institution": "INSTITUCIÓN EDUCATIVA TÉCNICA JUAN XXIII",
+      "first-education-date": "Mayo 2019 - Junio 2021",
+      "first-education-description": "Bachiller egresado con profundización en ciencias de la computación"
+  },
+  "skills": {
+      "programing-skills": "Lenguajes de programación",
+      "workflow": {
+          "flow-0": "Mobile-First, Responsive Design",
+          "flow-1": "WebApp Progresivas",
+          "flow-2": "Equipos Multifuncionales",
+          "flow-3": "Metodología Scrum",
+          "flow-4": "Testing y Debugging"
+      }
+  },
+  "interests": "Me identifico con tres palabras: Ayudar, aprender y tecnología. Me encanta echar una mano siempre que pueda, por ello me dedico a dar soporte técnico y realizo voluntariados. Siempre estoy aprendiendo cosas nuevas, eso me ha permitido tener un perfil polivalente. En el área de tecnologías he realizado labores de gestión de flujos de información y monitoreo de servicios cloud. Me apasiona la seguridad informática y la ciencia de datos. Aparte del desarrollo web, disfruto mucho las actividades al aire libre como viajar a la playa, ir de camping, practicar karate y baloncesto. También hago actividades de preservación ambiental, prevención de riesgos y desastres y primeros auxilios como voluntario, en un organismo de rescate nacional. Cuando me veo limitado a estar en casa, sigo series de ánime, ciencia ficción, videojuegos, ensayo guitarra, perfecciono mis habilidades en cocina, estudio idiomas por mi cuenta y exploro las últimas tecnologías y avances en desarrollo web.",
+  "awards-and-certifications": {
+      "item-0": "Fundamentos de la nube de AWS para profesionales (Español LATAM) | Skillbuilder AWS - 2023",
+      "item-1": "AWS Networking Basics | Skillbuilder AWS - 2023",
+      "item-2": "AWS Lambda Foundations | Skillbuilder AWS - 2023",
+      "item-3": "Fundamentos de la nube de AWS para profesionales (Español LATAM) | Servicio Nacional de Aprendizaje - 2020",
+      "item-4": "Introducción al Desarrollo Web | Certificación ⋅ Google Activate - 2020",
+      "item-5": "Liderazgo y trabajo en equipo | LinkedIn Learning ⋅ Course Certificate - 2020",
+      "item-6": "Scrum Fundamentals Certified (SFC) | SCRUMstudy ⋅ Accreditation Body for Scrum and Agile - 2020",
+      "item-7": "Reconocimiento al liderazgo | Servicio Nacional de Aprendizaje - 2020",
+      "item-8": "Reconocimiento por desempeño académico y actitudinal | Servicio Nacional de Aprendizaje - 2020"
+  }
+}

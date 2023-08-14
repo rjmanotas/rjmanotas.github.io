@@ -31,7 +31,8 @@ window.addEventListener('DOMContentLoaded', event => {
         });
     });
     
-    //Progress effects
+    //Language toggler
+    
     
 
 });
